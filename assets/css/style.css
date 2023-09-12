@@ -53,6 +53,7 @@ h6 {
   display: flex;
   align-items: center;
   background-image: url(../img/bc.jpg);
+  background-position: center center;
   z-index: 997;
   overflow-y: auto;
 }
