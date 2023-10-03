@@ -52,10 +52,14 @@ h6 {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(../img/bc.jpg);
-  background-position: center center;
+  background-image: url(../img/bc1.jpg);
   z-index: 997;
   overflow-y: auto;
+
+  @media (max-width: 992px) {
+    background-image: url(../img/bc3.jpeg);
+    background-position: center center;
+  }
 }
 
 #header * {
@@ -754,7 +758,7 @@ section .container {
 @media(max-width: 510px){
   .swiper {
     width: 400px;
-    height: 220px;
+    height: 210px;  
   }
 }
 
